@@ -21,6 +21,16 @@
             android:layout_width="@dimen/udesk_60"
             android:layout_height="@dimen/udesk_60"
             android:scaleType="centerCrop"/>
+<!--        <com.facebook.drawee.view.SimpleDraweeView-->
+<!--            android:id="@+id/udesk_product_img"-->
+<!--            android:layout_width="@dimen/udesk_60"-->
+<!--            android:layout_height="@dimen/udesk_60"-->
+<!--            fresco:actualImageScaleType="centerCrop"-->
+<!--            fresco:failureImage="@drawable/udesk_defualt_failure"-->
+<!--            fresco:failureImageScaleType="centerCrop"-->
+<!--            fresco:placeholderImage="@drawable/udesk_defalut_image_loading"-->
+<!--            fresco:placeholderImageScaleType="centerCrop"-->
+<!--            />-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

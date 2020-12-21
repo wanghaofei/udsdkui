@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
     android:id="@+id/commodity_rl"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -25,6 +26,17 @@
         android:layout_below="@id/udesk_tv_time"
         android:background="@color/udesk_color_im_commondity_bg1">
 
+<!--        <ImageView-->
+<!--            android:id="@+id/udesk_im_commondity_thumbnail"-->
+<!--            android:layout_width="@dimen/udesk_im_commondity_width_height"-->
+<!--            android:layout_height="@dimen/udesk_im_commondity_width_height"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_margin="10dp"-->
+<!--            fresco:actualImageScaleType="centerCrop"-->
+<!--            fresco:failureImage="@drawable/udesk_defualt_failure"-->
+<!--            fresco:failureImageScaleType="centerCrop"-->
+<!--            fresco:placeholderImage="@drawable/udesk_defalut_image_loading"-->
+<!--            fresco:placeholderImageScaleType="centerCrop" />-->
         <ImageView
             android:id="@+id/udesk_im_commondity_thumbnail"
             android:layout_width="@dimen/udesk_50"
@@ -32,6 +44,7 @@
             android:layout_centerVertical="true"
             android:layout_margin="10dp"
             android:scaleType="centerCrop"/>
+
         <TextView
             android:id="@+id/udesk_im_commondity_title"
             android:layout_width="wrap_content"

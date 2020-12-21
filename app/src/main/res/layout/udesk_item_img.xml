@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:udesk="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:udesk="http://schemas.android.com/tools"
     android:id="@+id/udesk_item_img"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="vertical"
+    android:background="@drawable/udesk_im_txt_left_default"
     android:visibility="gone">
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -18,6 +20,19 @@
             android:scaleType="fitXY"
             udesk:udesk_iv_cornerRadius="9dp"
             />
+
+<!--        <com.facebook.drawee.view.SimpleDraweeView-->
+<!--            android:id="@+id/udesk_im_image"-->
+<!--            android:layout_width="@dimen/udesk_140"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            fresco:actualImageScaleType="fitStart"-->
+<!--            fresco:failureImage="@drawable/udesk_defualt_failure"-->
+<!--            fresco:failureImageScaleType="fitXY"-->
+<!--            fresco:placeholderImage="@drawable/udesk_defalut_image_loading"-->
+<!--            fresco:placeholderImageScaleType="fitXY"-->
+<!--            fresco:roundedCornerRadius="9dp"-->
+<!--            android:adjustViewBounds="true"/>-->
+
         <TextView
             android:id="@+id/udesk_precent"
             android:layout_width="wrap_content"

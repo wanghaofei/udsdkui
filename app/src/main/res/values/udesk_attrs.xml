@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    
-   <!--<declare-styleable name="UdeskTitleBar">-->
-        <!--<attr name="titleBarTitle" format="string"/>-->
-        <!--<attr name="titleBarRightText" format="string"/>-->
-        <!--<attr name="titleBarLeftText" format="string"/>-->
-        <!--<attr name="titleBarLeftImage" format="reference"/>-->
-        <!--<attr name="titleBarBackground" format="reference|color"/>-->
+
+    <!--<declare-styleable name="UdeskTitleBar">-->
+    <!--<attr name="titleBarTitle" format="string"/>-->
+    <!--<attr name="titleBarRightText" format="string"/>-->
+    <!--<attr name="titleBarLeftText" format="string"/>-->
+    <!--<attr name="titleBarLeftImage" format="reference"/>-->
+    <!--<attr name="titleBarBackground" format="reference|color"/>-->
     <!--</declare-styleable>-->
 
     <declare-styleable name="UdeskChatImageView">
@@ -30,6 +30,7 @@
         <attr name="udeskvoiceTextColor" format="color" />
         <attr name="udeskvoiceTextSize" format="dimension" />
     </declare-styleable>
+
     <declare-styleable name="UdeskImageView">
         <attr name="android:src" />
         <attr name="udesk_iv_isCircle" format="boolean" />
